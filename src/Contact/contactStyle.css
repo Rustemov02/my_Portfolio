@@ -1,0 +1,115 @@
+.container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+}
+.contactPage {
+  width: 77vw;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}  
+.contactPage h1 {
+  font-size: 45px;
+  margin: 40px 0;
+}   
+.contactPage .header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+} 
+.contactPage .header h2 {
+  text-transform: capitalize;
+  padding: 6px 10px;
+} 
+.contactPage .header p {
+  text-transform: uppercase;
+  padding: 0 10px;
+  margin: auto ;
+} 
+.contactPage .connection {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  min-width: fit-content;  
+} 
+.contactPage .connection .box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 200px;
+  padding: 6px 20px;
+  font-size: 1.2rem;
+  text-align: center;  
+} 
+.connection i:hover {
+  text-shadow: 1px 1px 20px #1e982e; 
+} 
+.connection .box p { 
+  text-transform: capitalize;
+  padding: 4px 10px;
+  margin: auto;
+} 
+.contactPage .respons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 1.5rem;
+  margin: 50px auto; 
+} 
+.contactPage .respons h2 {
+  text-transform: capitalize;
+  padding: 6px 10px;
+} 
+.contactPage .respons p {
+  text-transform: uppercase;
+  padding: 3px 10px;
+} 
+/* FORM */
+.form form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 100%;
+  min-width: 120px;
+} 
+.form form .person {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+} 
+form .person #name,
+#email {
+  width: 520px; 
+} 
+form input,
+textarea {
+  background: transparent;
+  font-family: initial;
+  border: solid 1px gray;
+  outline: none;
+  border-radius: 18px;
+  font-size: 20px;
+  padding: 10px 40px;
+  margin: 10px 3px;
+} 
+form .button input {
+  padding: 10px 30px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 8px;
+}
+form .button input:hover{
+  color: black;
+  transition: 1s;
+}

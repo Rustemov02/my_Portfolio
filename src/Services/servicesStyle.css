@@ -1,0 +1,62 @@
+.container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+} 
+.servicesPage { 
+    height: 100vh;
+    width: 77vw;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .servicesPage h1 {
+    font-size: 45px;
+    margin: 40px 0;
+    padding: 0 15px;
+  }
+  .servicesPage p {
+    text-align: center;
+    font-family: 'Oxygen' , sans-serif;
+  }
+  .servicesPage .cubes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px 0;
+  }
+  .cubes .cube {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  .servicesPage .cubes .cube .box {
+    border: solid gray 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 5px;
+    margin: 5px;
+    box-shadow: -1px 6px 20px 0px black;
+    width: 33%;
+    min-width: 200px;
+    height: auto;
+  }
+  .cubes .cube .box i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .cubes .cube .box i:hover {
+    text-shadow: 1px 1px 20px #1e982e;
+    transition: 0.5s;
+  }
+  .cubes .cube .box h2 {
+    padding: 8px 10px;
+  }
+  .cube .box p {
+    padding: 12px 10px;
+  }
+  

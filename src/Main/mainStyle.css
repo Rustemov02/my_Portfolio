@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mainPage {
+    display: flex ;
+    transition: 1s;
+    position: relative;
+  }
+  .menu {
+    padding: 12px 10px;
+    border-right: solid gray 2px;
+    position: relative;
+    z-index: 1000;
+    left: 0;
+    width: 17%;
+    min-width: 200px;
+  }
+  .secondMenu{
+    background-color: rgb(14, 179, 121 , 0.7);
+    height: auto;
+    width: fit-content; 
+    border: solid rgb(106, 33, 162) 1px;
+    position: fixed;
+    left: 3%;
+    top: 6%;
+    border-radius: 8px;
+    display: none ;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .secondMenu ul{
+    list-style: none;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 8px;
+    font-size: 25px;
+    cursor: pointer ; 
+    
+  }
+  .secondMenu ul li{
+    list-style-type: none;  
+    width: 100%;
+    text-align: center;
+  }
+  .secondMenu .secondLink{
+    border-radius: 12px;
+    padding: 0 5px;
+    width: 100%;
+    text-decoration: none;
+    color: white; 
+  }
+  .secondMenu .secondLink:hover{ 
+    background-color: rgb(106, 33, 162);
+    transition: 1s;
+  }
+  .openMenu{
+    display: none;
+  }  
+  .show{
+    display: block;
+  }
+  .openMenu i{
+    font-size: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  .logo {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: solid 5px;
+    width: fit-content;
+  }
+  .menu .list {
+    margin-top: 170px;
+  }
+  .list ul {
+    list-style: none;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .list ul li {
+    font-size: 25px;
+    padding: 0 ;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+  } 
+  .logoStyle {
+    width: 120px;
+    height: 50px;
+    font-size: 120px;
+  }
+  .linkStyle {
+    text-decoration: none;
+    padding: 12px 10px;
+  }
+  .linkStyle i {
+    margin-right: 7px;
+  }
+  #svg {
+    border-radius: 25px;
+  }
+  /* Changer */
+  .setting {
+    padding: 4px 13px;
+    position: fixed;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    top: 20px;
+    font-size: 30px;
+    transition: 1s;
+    z-index: 999;
+  }
+  .changer {
+    padding: 4px 10px;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    z-index: 1;
+  }
+  .changer button {
+    border: none;
+    padding: 3px;
+    font-size: 30px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .changer p {
+    font-weight: bold;
+    font-size: 18px;
+  }

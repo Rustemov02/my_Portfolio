@@ -1,0 +1,64 @@
+.container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  } 
+  .aboutMe {
+    height: fit-content;
+    width: fit-content;
+    padding: 0 10px;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .aboutMe .developer {
+    font-family: "Peralta", cursive;
+    padding: 12px 10px;
+  }
+  .aboutMe .name {
+    font-family: "Peralta", cursive;
+    padding: 12px 10px;
+  }
+  .aboutMe p {
+    font-size: 15px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 12px 0;
+  }
+  .aboutMe h1,
+  h2,
+  p {
+    padding: 5px 0;
+  }
+  .aboutMe .image{
+    border-radius: 20px;
+    border-bottom: solid 4px;
+    border-right: solid 4px;
+    width: 65%;
+    min-width: 240px;
+    position: absolute;
+    left: 110%;
+    top: -35%;
+    padding: 12px 10px;
+  }
+  .aboutMe .aboutBtn {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px 0;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .aboutBtn a {
+    text-decoration: none;
+    color: white;
+  }
+  .aboutBtn a:hover {
+    color: black;
+    transition: 0.4s ease-in-out;
+  } 

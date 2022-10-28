@@ -1,0 +1,113 @@
+.container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+} 
+.aboutPage {
+  height: 100vh;
+  width: 77vw; 
+  min-width: 300px;
+  padding: 0 30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+} 
+.aboutPage h1 {
+  font-size: 45px;
+  margin: 40px 0;
+  width: fit-content;
+} 
+.aboutPage h2,
+p {
+  padding: 6px 0;
+  width: fit-content;
+} 
+.aboutPage p {
+  font-size: 18px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  width: fit-content;
+} 
+.aboutPage .main {
+  display: flex; 
+  flex-wrap: wrap;
+  /* flex-direction: ; */
+  justify-content: space-between; 
+  align-items: center;
+  height: auto; 
+} 
+.aboutPage .status {
+  font-size: 18 px;
+  display: flex; 
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+  min-width: 200px; 
+  padding: 12px 0px;
+  margin-top: 0px;
+  height: fit-content; 
+} 
+.aboutPage .status_1,
+.status_2 {
+  display: flex;
+  flex-direction: column; 
+  width: fit-content;
+  font-size: 18px; 
+} 
+.aboutPage .status p {
+  padding: 10px 20px 5px 3px;
+} 
+.aboutPage .buttons {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 16px 0; 
+} 
+.aboutPage .buttons .button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+} 
+.aboutPage .buttons .button:hover {
+  color: black;
+  transition: 0.4s ease-in-out;
+} 
+.aboutPage .buttons .button a {
+  text-decoration: none;
+  color: white;
+} 
+.aboutPage .buttons .button a:hover {
+  color: black;
+  transition: 0.4s ease-in-out;
+} 
+/* Skills */
+.aboutPage .skills {
+  padding: 12px 10px;
+  margin-top: 10px;
+  width: 40%; 
+  min-width: 350px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+} 
+.aboutPage .skills .degree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+} 
+.aboutPage .skills .point {
+  height: 13px;
+} 
+.aboutPage .point div {
+  height: 13px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}

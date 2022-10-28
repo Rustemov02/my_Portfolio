@@ -1,0 +1,131 @@
+@media screen and (min-width : 1450px) {
+    .mainPage .secondMenu {
+        border: solid black 3px;
+        display: none !important;
+    }
+} 
+@media screen and (max-width : 1450px) {
+
+    /* MAIN */
+    .container {
+        width: 100%;
+        justify-content: center;
+    } 
+    .menu {
+        display: none;
+    } 
+    .secondMenu {
+        display: none;
+    } 
+    .mainPage .openMenu {
+        z-index: 999;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        /* copy to the main css */
+    } 
+    .mainPage {
+        justify-content: center;
+    } 
+    /* HOME */
+    .aboutMe {
+        align-items: center;
+        margin: auto;
+    } 
+    .aboutMe .image {
+        position: static;
+        width: 50%;
+    } 
+    /* ABOUT */
+    .aboutPage h1 {
+        margin-left: 20px;
+    } 
+    .aboutPage .buttons {
+        position: static;
+    }
+}
+
+@media screen and (max-width : 1220px) {
+
+    /* HOME */
+    .container {
+        justify-content: center;
+        width: 100vw;
+    } 
+    .aboutMe {
+        align-items: center;
+    } 
+    /* ABOUT */
+    .aboutPage .main {
+        flex-direction: column;
+    } 
+    .aboutPage .main .status,
+    .skills {
+        width: 100%;
+    } 
+    /* CONTACT */
+    .contactPage h1 {
+        text-align: center;
+    } 
+    .contactPage .form form .person {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .aboutPage .main {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+    } 
+    .servicesPage h1 {
+        text-align: center;
+    } 
+    .servicesPage .cubes .cube {
+        flex-wrap: wrap;
+    } 
+    form .button {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 500px) and (min-width : 200px) {
+
+    /* HOME */
+    .aboutMe {
+        justify-content: center;
+        align-items: center;
+        padding: 75px 10px;
+        min-width: 220px;
+    } 
+    .aboutMe h1,
+    h2 {
+        text-align: center;
+    } 
+    /* ABOUT */
+    .aboutPage {
+        justify-content: center;
+        align-items: center;
+        min-width: 220px;
+    } 
+    .aboutPage .main {
+        align-items: flex-start;
+    } 
+    .aboutPage .main .skills {
+        min-width: 220px;
+    } 
+    /* CONTACT */
+    .contactPage {
+        justify-content: center;
+        align-items: center;
+        padding: 75px 10px;
+        min-width: 220px; 
+    }   
+    .contactPage .form form .person {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 200px;
+    }
+    
+}
